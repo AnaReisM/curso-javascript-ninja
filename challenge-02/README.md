@@ -16,24 +16,24 @@ var resultado = soma(4, 3) + 5;
 12;
 
 // Declare uma nova variável, sem valor.
-var desvalorizada;
+var semValor;
 
 /*
 Crie uma função que adicione um valor à variável criada acima, e retorne a string:
     O valor da variável agora é VALOR.
 Onde VALOR é o novo valor da variável.
 */
-function valorizar() {
-  desvalorizada = "banana";
-  return "O valor da variavel agora é" + desvalorizada;
+function darValor() {
+  semValor = "VALOR";
+  return "O valor da variavel agora é" + semValor;
 }
 
 // Invoque a função criada acima.
-valorizar();
+darValor();
 
 // Qual o retorno da função? (Use comentários de bloco).
 /*
-O valor da variável agora é banana
+O valor da variável agora é VALOR
 */
 
 /*
@@ -43,23 +43,23 @@ Crie uma função com as seguintes características:
     Preencha todos os valores corretamente!
 3. O retorno da função deve ser a multiplicação dos 3 argumentos, somando `2` ao resultado da multiplicação.
 */
-function dosTres(num1, num2, num3) {
+function tresNum(num1, num2, num3) {
   if (num1 === undefined || num2 === undefined || num3 === undefined) {
     return "Preencha todos os valores corretamente!";
   }
   return nu1 * num2 * num3 + 2;
 }
 
-console.log(dosTres(1, 2));
+console.log(tresNum(1, 2));
 
 // Invoque a função criada acima, passando só dois números como argumento.
-dosTres(1, 2);
+tresNum(1, 2);
 
 // Qual o resultado da invocação acima? (Use comentários para mostrar o valor retornado).
 //Preencha todos os valores corretamente.
 
 // Agora invoque novamente a função criada acima, mas passando todos os três argumentos necessários.
-dosTres(2, 3, 4);
+tresNum(2, 3, 4);
 
 // Qual o resultado da invocação acima? (Use comentários para mostrar o valor retornado).
 //26
